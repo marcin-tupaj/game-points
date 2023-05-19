@@ -1,7 +1,7 @@
-import './App.css'
+import GameBoard from './GameBoard/';
 
 function App() {
-  return <h1>Game Points</h1>
+  return <GameBoard />;
 }
 
-export default App
+export default App;
