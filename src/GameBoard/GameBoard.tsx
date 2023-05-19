@@ -1,7 +1,6 @@
 import { useMemo, useState } from 'react';
 import { LetterItem, getLetterItems } from './constants';
-import { ScoreTable } from 'styles/pages/HomePage/ScoreTable';
-import GlobalStyle from '@/styles/Global';
+import GlobalStyle from 'styles/Global';
 
 export default function GameBoard() {
   const [itemsState, setItemsState] = useState<{
@@ -71,7 +70,7 @@ export default function GameBoard() {
       </div>
       <hr />
       <div>
-        <ScoreTable>
+        <table>
           <thead>
             <tr>
               <th>Item</th>
@@ -110,7 +109,7 @@ export default function GameBoard() {
               ))
             )}
           </tbody>
-        </ScoreTable>
+        </table>
       </div>
       <hr />
       <div>
@@ -118,7 +117,9 @@ export default function GameBoard() {
         <span data-testid="bonus-score">{bonusScore}</span>
       </div>
       <hr />
-      <div>Total {overallScore + bonusScore}</div>
+      <div>
+        Total <span data-testid="total-score">{overallScore + bonusScore}</span>
+      </div>
       <hr />
       <button type="button" onClick={handleNewGame}>
         New game
