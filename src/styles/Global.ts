@@ -5,6 +5,7 @@ const GlobalStyle = createGlobalStyle`
       width: 100%;
       margin: 0 auto;
       text-align: center;
+      box-sizing: border-box;
     }
 
 
@@ -63,7 +64,7 @@ const GlobalStyle = createGlobalStyle`
 
       #root {
         height: 800px;
-        max-height: 100%;
+        max-height: 100vh;
         max-width: 1280px;
         border: 2px solid var(--border-color);
       }

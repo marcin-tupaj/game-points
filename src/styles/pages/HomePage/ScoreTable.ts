@@ -2,7 +2,7 @@ import styled from 'styled-components/macro';
 
 export const ScoreTableColumn = styled.div`
   flex: 1;
-  min-height: 260px;
+  min-height: 220px;
   overflow-y: auto;
   border-bottom: 2px solid var(--border-color);
 `;
