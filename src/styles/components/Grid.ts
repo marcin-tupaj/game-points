@@ -1,4 +1,5 @@
 import styled from 'styled-components/macro';
+import Heading from './Heading';
 
 type justifyOptions =
   | 'start'
@@ -22,7 +23,7 @@ export const GridContainer = styled.div<GridContainerProps>`
   display: grid;
   grid-template-columns: ${props =>
     props.repeat ? `repeat(${props.columns})` : props.columns};
-  grid-gap: ${props => props.gap && '1rem'};
+  grid-gap: ${props => props.gap && 'var(--spacing-md)'};
   justify-content: ${props => props.justifyContent || undefined};
   justify-items: ${props => props.justifyItems || undefined};
   align-items: ${props => props.alignItems || undefined};
@@ -51,7 +52,7 @@ export const ScoreSection = styled.aside`
   flex-direction: column;
 
   @media (max-width: 768px) {
-    margin-top: 1rem;
+    margin-top: var(--spacing-md);
     border-top: 2px solid var(--border-color);
   }
 
@@ -64,11 +65,11 @@ export const ScoreSection = styled.aside`
   }
 `;
 
-export const SectionTitle = styled.h1`
-  font-size: 1.5rem;
+export const SectionTitle = styled(Heading)`
+  font-size: var(--heading-font-size-h1);
   border-bottom: 2px solid var(--border-color);
   margin: 0;
-  padding: 1rem;
+  padding: var(--spacing-md);
   text-transform: uppercase;
   text-align: left;
 `;

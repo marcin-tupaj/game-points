@@ -37,6 +37,7 @@ export default function GameBoard() {
         ? Math.floor(newCount / clikedLetter.bonus.count) *
           clikedLetter.bonus.points
         : 0;
+
       return {
         ...prev,
         [clikedLetter.letter]: {

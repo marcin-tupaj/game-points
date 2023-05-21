@@ -12,12 +12,12 @@ export const ScoreTableContainer = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1rem;
   align-items: center;
-  padding: 0.5rem 0;
+  padding: var(--spacing-sm) 0;
   border-bottom: 1px solid var(--border-color);
 `;
 
 export const SectionBody = styled.div`
-  padding: 1rem;
+  padding: var(--spacing-md);
 `;
 
 export const ScoreTable = styled.table`
@@ -26,14 +26,15 @@ export const ScoreTable = styled.table`
 `;
 
 export const ScoreTableRow = styled.tr`
-  border-bottom: 1px solid;
+  border-bottom: 1px solid var(--border-color);
 `;
 
 interface ScoreTableCellProps {
   as?: keyof JSX.IntrinsicElements;
   colSpan?: number;
 }
+
 export const ScoreTableCell = styled.td<ScoreTableCellProps>`
-  padding: 0.5rem 0;
+  padding: var(--spacing-sm) 0;
   colspan: ${props => props.colSpan || 1};
 `;

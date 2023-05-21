@@ -9,18 +9,18 @@ const ItemBox = styled.div<ItemBoxProps>`
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 42px;
-  height: 42px;
+  min-width: var(--button-dimension);
+  height: var(--button-dimension);
 
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 600;
   text-align: center;
 
   background-color: ${props =>
-    itemColors[props.variant].default || 'rgb(38, 137, 12)'};
+    itemColors[props.variant].default || 'var(--action-primary-color)'};
   border-radius: 4px;
   border-color: ${props =>
-    itemColors[props.variant].darker || 'rgb(34, 123, 11)'};
+    itemColors[props.variant].darker || 'var(--action-primary-darker-color)'};
   transition: all 0.3s ease;
 `;
 
