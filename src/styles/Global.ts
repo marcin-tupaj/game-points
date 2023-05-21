@@ -1,14 +1,31 @@
 import { createGlobalStyle } from 'styled-components/macro';
 
 const GlobalStyle = createGlobalStyle`
-  #root{
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-  }
+    #root{
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+    }
 
 
-  :root {
+    :root {
+    --breakpoint-small: 767px;
+    --breakpoint-medium: 1024px;
+    --border-color: rgb(200, 200, 200);
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --heading-font-size-h1: 2rem;
+    --heading-font-size-h2: 1.75rem;
+    --heading-font-size-h3: 1.5rem;
+    --heading-font-size-h4: 1.25rem;
+    --heading-font-size-h5: 1.125rem;
+    --heading-font-size-h6: 1rem;
+
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
     color-scheme: light dark;
     color: rgba(40, 40, 40);
     background-color: rgb(240, 240, 240);
@@ -40,10 +57,6 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
-  button {
-    background-color: rgb(220, 220, 220);
-  }
-
   button:focus,
   button:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
@@ -55,11 +68,10 @@ const GlobalStyle = createGlobalStyle`
       color: rgb(240, 240, 240);
     }
     a:hover {
-      color: #747bff;
+      color: rgb(116, 123, 255);
     }
     button {
-      background-color: rgba(140, 140, 140);
-      color: rgb(40, 40, 40);
+      background-color: rgb(249, 249, 249);
     }
   }
 `;
