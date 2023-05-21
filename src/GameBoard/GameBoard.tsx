@@ -1,5 +1,4 @@
 import { useMemo, useState } from 'react';
-import { LetterItem, getLetterItems } from './constants';
 import Button from 'styles/components/Button';
 import {
   GameContainer,
@@ -20,6 +19,7 @@ import {
   ScoreTableRow,
   ScoreTableCell,
 } from 'styles/pages/HomePage/ScoreTable';
+import { LetterItem, getLetterItems } from './constants';
 
 export default function GameBoard() {
   const [itemsState, setItemsState] = useState<{
