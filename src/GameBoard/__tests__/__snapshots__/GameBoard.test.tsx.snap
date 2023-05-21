@@ -62,7 +62,7 @@ exports[`GameBoard should render the correct bonus and total scores after clicki
         Player items
       </h1>
       <div
-        class="ScoreTable__ScoreTableColumn-sc-1gj21se-0 kQqoOu"
+        class="ScoreTable__ScoreTableColumn-sc-1gj21se-0 gRezwi"
       >
         <table
           aria-describedby="scores-section-title"
