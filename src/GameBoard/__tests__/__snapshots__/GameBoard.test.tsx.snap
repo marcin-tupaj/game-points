@@ -11,40 +11,40 @@ exports[`GameBoard should render the correct bonus and total scores after clicki
       class="Grid__GameSection-sc-dhuxyx-3"
     >
       <h1
-        class="Grid__SectionTitle-sc-dhuxyx-5 bsSUYb"
+        class="Heading-sc-na8skm-0 Grid__SectionTitle-sc-dhuxyx-5 ijWcIm csBosv"
       >
         Kahoot! points
       </h1>
       <div
-        class="ScoreTable__SectionBody-sc-1gj21se-2 bBYFMy"
+        class="ScoreTable__SectionBody-sc-1gj21se-2 kNjoI"
       >
         <div
-          class="Grid__GridContainer-sc-dhuxyx-0 fGDirL"
+          class="Grid__GridContainer-sc-dhuxyx-0 OPYyZ"
         >
           <button
             aria-label="Select letter A"
-            class="Button-sc-18nym9o-0 ifTpoO"
+            class="Button-sc-18nym9o-0 grkJOj"
             type="button"
           >
             A
           </button>
           <button
             aria-label="Select letter B"
-            class="Button-sc-18nym9o-0 iddRsq"
+            class="Button-sc-18nym9o-0 juqerL"
             type="button"
           >
             B
           </button>
           <button
             aria-label="Select letter C"
-            class="Button-sc-18nym9o-0 bBlAzc"
+            class="Button-sc-18nym9o-0 ddpfln"
             type="button"
           >
             C
           </button>
           <button
             aria-label="Select letter D"
-            class="Button-sc-18nym9o-0 zscJJ"
+            class="Button-sc-18nym9o-0 YlkwH"
             type="button"
           >
             D
@@ -53,10 +53,10 @@ exports[`GameBoard should render the correct bonus and total scores after clicki
       </div>
     </main>
     <aside
-      class="Grid__ScoreSection-sc-dhuxyx-4 eA-dcSt"
+      class="Grid__ScoreSection-sc-dhuxyx-4 dshiz"
     >
       <h1
-        class="Grid__SectionTitle-sc-dhuxyx-5 bsSUYb"
+        class="Heading-sc-na8skm-0 Grid__SectionTitle-sc-dhuxyx-5 ijWcIm csBosv"
         id="scores-section-title"
       >
         Player items
@@ -70,22 +70,22 @@ exports[`GameBoard should render the correct bonus and total scores after clicki
         >
           <thead>
             <tr
-              class="ScoreTable__ScoreTableRow-sc-1gj21se-4 ejXWgB"
+              class="ScoreTable__ScoreTableRow-sc-1gj21se-4 iOnbct"
             >
               <th
-                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 cFyYVp"
+                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 TligK"
                 scope="col"
               >
                 Item
               </th>
               <th
-                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 cFyYVp"
+                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 TligK"
                 scope="col"
               >
                 Quantity
               </th>
               <th
-                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 cFyYVp"
+                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 TligK"
                 scope="col"
               >
                 Score
@@ -94,14 +94,14 @@ exports[`GameBoard should render the correct bonus and total scores after clicki
           </thead>
           <tbody>
             <tr
-              class="ScoreTable__ScoreTableRow-sc-1gj21se-4 ejXWgB"
+              class="ScoreTable__ScoreTableRow-sc-1gj21se-4 iOnbct"
             >
               <td
-                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 cFyYVp"
+                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 TligK"
               >
                 <div
                   aria-label="Item A"
-                  class="ItemBox-sc-l5pjw0-0 chfZfQ"
+                  class="ItemBox-sc-l5pjw0-0 iRqhHL"
                 >
                   <span>
                     A
@@ -110,26 +110,26 @@ exports[`GameBoard should render the correct bonus and total scores after clicki
               </td>
               <td
                 aria-label="Quantity: 4"
-                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 cFyYVp"
+                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 TligK"
               >
                 4
               </td>
               <td
                 aria-label="Score: 600"
-                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 cFyYVp"
+                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 TligK"
               >
                 600
               </td>
             </tr>
             <tr
-              class="ScoreTable__ScoreTableRow-sc-1gj21se-4 ejXWgB"
+              class="ScoreTable__ScoreTableRow-sc-1gj21se-4 iOnbct"
             >
               <td
-                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 cFyYVp"
+                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 TligK"
               >
                 <div
                   aria-label="Item B"
-                  class="ItemBox-sc-l5pjw0-0 gCHEE"
+                  class="ItemBox-sc-l5pjw0-0 edsIiP"
                 >
                   <span>
                     B
@@ -138,26 +138,26 @@ exports[`GameBoard should render the correct bonus and total scores after clicki
               </td>
               <td
                 aria-label="Quantity: 1"
-                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 cFyYVp"
+                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 TligK"
               >
                 1
               </td>
               <td
                 aria-label="Score: 80"
-                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 cFyYVp"
+                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 TligK"
               >
                 80
               </td>
             </tr>
             <tr
-              class="ScoreTable__ScoreTableRow-sc-1gj21se-4 ejXWgB"
+              class="ScoreTable__ScoreTableRow-sc-1gj21se-4 iOnbct"
             >
               <td
-                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 cFyYVp"
+                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 TligK"
               >
                 <div
                   aria-label="Item C"
-                  class="ItemBox-sc-l5pjw0-0 bwzeQq"
+                  class="ItemBox-sc-l5pjw0-0 cVIWFD"
                 >
                   <span>
                     C
@@ -166,26 +166,26 @@ exports[`GameBoard should render the correct bonus and total scores after clicki
               </td>
               <td
                 aria-label="Quantity: 1"
-                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 cFyYVp"
+                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 TligK"
               >
                 1
               </td>
               <td
                 aria-label="Score: 60"
-                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 cFyYVp"
+                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 TligK"
               >
                 60
               </td>
             </tr>
             <tr
-              class="ScoreTable__ScoreTableRow-sc-1gj21se-4 ejXWgB"
+              class="ScoreTable__ScoreTableRow-sc-1gj21se-4 iOnbct"
             >
               <td
-                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 cFyYVp"
+                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 TligK"
               >
                 <div
                   aria-label="Item D"
-                  class="ItemBox-sc-l5pjw0-0 bQAPEP"
+                  class="ItemBox-sc-l5pjw0-0 hQMkez"
                 >
                   <span>
                     D
@@ -194,13 +194,13 @@ exports[`GameBoard should render the correct bonus and total scores after clicki
               </td>
               <td
                 aria-label="Quantity: 1"
-                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 cFyYVp"
+                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 TligK"
               >
                 1
               </td>
               <td
                 aria-label="Score: 40"
-                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 cFyYVp"
+                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 TligK"
               >
                 40
               </td>
@@ -209,7 +209,7 @@ exports[`GameBoard should render the correct bonus and total scores after clicki
         </table>
       </div>
       <div
-        class="Grid__GridContainer-sc-dhuxyx-0 kaaOZB"
+        class="Grid__GridContainer-sc-dhuxyx-0 eESGYv"
       >
         <strong>
           Bonuses
@@ -225,7 +225,7 @@ exports[`GameBoard should render the correct bonus and total scores after clicki
         <hr />
       </div>
       <div
-        class="Grid__GridContainer-sc-dhuxyx-0 gsNvFa"
+        class="Grid__GridContainer-sc-dhuxyx-0 fNbZqM"
       >
         <div>
           <p
@@ -243,7 +243,7 @@ exports[`GameBoard should render the correct bonus and total scores after clicki
         <div>
           <button
             aria-label="Start a new game"
-            class="Button-sc-18nym9o-0 jbSHAn"
+            class="Button-sc-18nym9o-0 lbBiOI"
             type="button"
           >
             New game

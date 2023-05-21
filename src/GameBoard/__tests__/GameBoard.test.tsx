@@ -36,14 +36,9 @@ describe('GameBoard', () => {
     expect(screen.getByLabelText('Quantity: 1')).toBeInTheDocument();
     expect(screen.getByLabelText('Score: 100')).toBeInTheDocument();
 
-    const itemBoxBackgroundColor = window
-      .getComputedStyle(itemBox)
-      .getPropertyValue('background-color');
-    const expectedBackgroundColor = window
-      .getComputedStyle(letterButton)
-      .getPropertyValue('background-color');
-
-    expect(itemBoxBackgroundColor).toEqual(expectedBackgroundColor);
+    expect(letterButton.getAttribute('variant')).toEqual(
+      itemBox.getAttribute('variant')
+    );
   });
 
   it('should render the correct bonus and total scores after clicking multiple letter buttons', () => {

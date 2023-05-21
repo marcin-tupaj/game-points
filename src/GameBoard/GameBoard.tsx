@@ -51,19 +51,19 @@ export default function GameBoard() {
 
   const overallScore = useMemo(
     () =>
-      Object.keys(itemsState).reduce((acc, letter) => {
-        const letterItem = itemsState[letter];
-        return acc + letterItem.score;
-      }, 0),
+      Object.values(itemsState).reduce(
+        (acc, letterItem) => acc + letterItem.score,
+        0
+      ),
     [itemsState]
   );
 
   const bonusScore = useMemo(
     () =>
-      Object.keys(itemsState).reduce((acc, letter) => {
-        const letterItem = itemsState[letter];
-        return acc + letterItem.bonusScore;
-      }, 0),
+      Object.values(itemsState).reduce(
+        (acc, letterItem) => acc + letterItem.bonusScore,
+        0
+      ),
     [itemsState]
   );
 
