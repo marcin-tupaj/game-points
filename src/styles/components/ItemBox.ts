@@ -16,6 +16,8 @@ const ItemBox = styled.div<ItemBoxProps>`
   font-weight: 600;
   text-align: center;
 
+  color: var(--white-color);
+
   background-color: ${props =>
     itemColors[props.variant].default || 'var(--action-primary-color)'};
   border-radius: 4px;
