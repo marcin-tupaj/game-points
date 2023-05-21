@@ -101,7 +101,7 @@ exports[`GameBoard should render the correct bonus and total scores after clicki
               >
                 <div
                   aria-label="Item A"
-                  class="ItemBox-sc-l5pjw0-0 iRqhHL"
+                  class="ItemBox-sc-l5pjw0-0 gltgDI"
                 >
                   <span>
                     A
@@ -129,7 +129,7 @@ exports[`GameBoard should render the correct bonus and total scores after clicki
               >
                 <div
                   aria-label="Item B"
-                  class="ItemBox-sc-l5pjw0-0 edsIiP"
+                  class="ItemBox-sc-l5pjw0-0 iXxPJA"
                 >
                   <span>
                     B
@@ -157,7 +157,7 @@ exports[`GameBoard should render the correct bonus and total scores after clicki
               >
                 <div
                   aria-label="Item C"
-                  class="ItemBox-sc-l5pjw0-0 cVIWFD"
+                  class="ItemBox-sc-l5pjw0-0 jxgbKM"
                 >
                   <span>
                     C
@@ -185,7 +185,7 @@ exports[`GameBoard should render the correct bonus and total scores after clicki
               >
                 <div
                   aria-label="Item D"
-                  class="ItemBox-sc-l5pjw0-0 hQMkez"
+                  class="ItemBox-sc-l5pjw0-0 kDQgoU"
                 >
                   <span>
                     D
