@@ -1,0 +1,256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameBoard should render the correct bonus and total scores after clicking multiple letter buttons 1`] = `
+<div
+  class="Grid__PageContainer-sc-dhuxyx-1 jqwcJ"
+>
+  <div
+    class="Grid__GridContainer-sc-dhuxyx-0 Grid__GameContainer-sc-dhuxyx-2 ioKryS MxoDc"
+  >
+    <main
+      class="Grid__GameSection-sc-dhuxyx-3"
+    >
+      <h1
+        class="Grid__SectionTitle-sc-dhuxyx-5 bsSUYb"
+      >
+        Kahoot! points
+      </h1>
+      <div
+        class="ScoreTable__SectionBody-sc-1gj21se-2 bBYFMy"
+      >
+        <div
+          class="Grid__GridContainer-sc-dhuxyx-0 fGDirL"
+        >
+          <button
+            aria-label="Select letter A"
+            class="Button-sc-18nym9o-0 ifTpoO"
+            type="button"
+          >
+            A
+          </button>
+          <button
+            aria-label="Select letter B"
+            class="Button-sc-18nym9o-0 iddRsq"
+            type="button"
+          >
+            B
+          </button>
+          <button
+            aria-label="Select letter C"
+            class="Button-sc-18nym9o-0 bBlAzc"
+            type="button"
+          >
+            C
+          </button>
+          <button
+            aria-label="Select letter D"
+            class="Button-sc-18nym9o-0 zscJJ"
+            type="button"
+          >
+            D
+          </button>
+        </div>
+      </div>
+    </main>
+    <aside
+      class="Grid__ScoreSection-sc-dhuxyx-4 eA-dcSt"
+    >
+      <h1
+        class="Grid__SectionTitle-sc-dhuxyx-5 bsSUYb"
+        id="scores-section-title"
+      >
+        Player items
+      </h1>
+      <div
+        class="ScoreTable__ScoreTableColumn-sc-1gj21se-0 kQqoOu"
+      >
+        <table
+          aria-describedby="scores-section-title"
+          class="ScoreTable-sc-1gj21se-3 iNdZGG"
+        >
+          <thead>
+            <tr
+              class="ScoreTable__ScoreTableRow-sc-1gj21se-4 ejXWgB"
+            >
+              <th
+                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 cFyYVp"
+                scope="col"
+              >
+                Item
+              </th>
+              <th
+                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 cFyYVp"
+                scope="col"
+              >
+                Quantity
+              </th>
+              <th
+                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 cFyYVp"
+                scope="col"
+              >
+                Score
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              class="ScoreTable__ScoreTableRow-sc-1gj21se-4 ejXWgB"
+            >
+              <td
+                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 cFyYVp"
+              >
+                <div
+                  aria-label="Item A"
+                  class="ItemBox-sc-l5pjw0-0 chfZfQ"
+                >
+                  <span>
+                    A
+                  </span>
+                </div>
+              </td>
+              <td
+                aria-label="Quantity: 4"
+                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 cFyYVp"
+              >
+                4
+              </td>
+              <td
+                aria-label="Score: 600"
+                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 cFyYVp"
+              >
+                600
+              </td>
+            </tr>
+            <tr
+              class="ScoreTable__ScoreTableRow-sc-1gj21se-4 ejXWgB"
+            >
+              <td
+                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 cFyYVp"
+              >
+                <div
+                  aria-label="Item B"
+                  class="ItemBox-sc-l5pjw0-0 gCHEE"
+                >
+                  <span>
+                    B
+                  </span>
+                </div>
+              </td>
+              <td
+                aria-label="Quantity: 1"
+                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 cFyYVp"
+              >
+                1
+              </td>
+              <td
+                aria-label="Score: 80"
+                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 cFyYVp"
+              >
+                80
+              </td>
+            </tr>
+            <tr
+              class="ScoreTable__ScoreTableRow-sc-1gj21se-4 ejXWgB"
+            >
+              <td
+                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 cFyYVp"
+              >
+                <div
+                  aria-label="Item C"
+                  class="ItemBox-sc-l5pjw0-0 bwzeQq"
+                >
+                  <span>
+                    C
+                  </span>
+                </div>
+              </td>
+              <td
+                aria-label="Quantity: 1"
+                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 cFyYVp"
+              >
+                1
+              </td>
+              <td
+                aria-label="Score: 60"
+                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 cFyYVp"
+              >
+                60
+              </td>
+            </tr>
+            <tr
+              class="ScoreTable__ScoreTableRow-sc-1gj21se-4 ejXWgB"
+            >
+              <td
+                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 cFyYVp"
+              >
+                <div
+                  aria-label="Item D"
+                  class="ItemBox-sc-l5pjw0-0 bQAPEP"
+                >
+                  <span>
+                    D
+                  </span>
+                </div>
+              </td>
+              <td
+                aria-label="Quantity: 1"
+                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 cFyYVp"
+              >
+                1
+              </td>
+              <td
+                aria-label="Score: 40"
+                class="ScoreTable__ScoreTableCell-sc-1gj21se-5 cFyYVp"
+              >
+                40
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div
+        class="Grid__GridContainer-sc-dhuxyx-0 kaaOZB"
+      >
+        <strong>
+          Bonuses
+        </strong>
+         
+        <span
+          data-testid="bonus-score"
+        >
+          200
+        </span>
+      </div>
+      <div>
+        <hr />
+      </div>
+      <div
+        class="Grid__GridContainer-sc-dhuxyx-0 gsNvFa"
+      >
+        <div>
+          <p
+            class="Heading-sc-na8skm-0 kNUXZO"
+          >
+            Total
+          </p>
+          <p
+            class="Heading-sc-na8skm-0 bUvPQD"
+            data-testid="total-score"
+          >
+            780
+          </p>
+        </div>
+        <div>
+          <button
+            aria-label="Start a new game"
+            class="Button-sc-18nym9o-0 jbSHAn"
+            type="button"
+          >
+            New game
+          </button>
+        </div>
+      </div>
+    </aside>
+  </div>
+</div>
+`;
