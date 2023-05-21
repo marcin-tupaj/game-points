@@ -1,7 +1,8 @@
 import { render, fireEvent } from '@testing-library/react';
 import GameBoard from '../GameBoard';
 import '@testing-library/jest-dom';
-import { LetterItem, getLetterItems } from '../constants';
+import { getLetterItems } from '../constants';
+import { LetterItem } from 'types';
 
 jest.mock('../constants', () => ({
   getLetterItems: jest.fn(),
